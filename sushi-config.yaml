@@ -19,6 +19,9 @@ publisher:
   name: Georgia Tech Research Institute
   url: http://example.org/example-publisher
   # email: test@example.org
+dependencies:
+  hl7.fhir.us.mdi:
+    version: current # TODO: Update to 1.1.0 when published.
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
